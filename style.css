@@ -16,3 +16,6 @@ body{
     margin-right: auto;
     width: 20%;
   }
+  form{
+      text-align: left;
+  }
