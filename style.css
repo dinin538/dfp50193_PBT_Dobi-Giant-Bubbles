@@ -16,6 +16,7 @@ body{
     margin-right: auto;
     width: 20%;
   }
-  form{
+form{
       text-align: left;
-  }
+      width: 20%;
+}
