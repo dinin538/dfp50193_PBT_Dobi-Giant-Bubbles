@@ -8,19 +8,14 @@
     <title>Dobi Giant Bubbles</title>
 </head>
 <body>
-    <marquee direction="right" scrollamount="17">
-    <img src="dobi.jpg" alt="Trulli" width="200" height="200">
-    <img src="d1.jpg" alt="Trulli" width="300" height="200">
-    <img src="d2.jpg" alt="Trulli" width="300" height="200">
-    <img src="d3.jpg" alt="Trulli" width="300" height="200">
-    </marquee>
     
 </div>
     <h1>Dobi Giant Bubbles</h1>
     <p>15G, Jalan Makyong 5B/KU5, Bandar Bukit Raja, Klang, Selangor 41050 Klang, Selangor</p>
 
     <h2>Service that AVAILABLE in our service</h2> 
- 
+
+ <form name="myform" method="post" action="result.php">
 <table style="width:100%"> 
   <tr> 
     <th> Normal Laundry </th> 
@@ -52,9 +47,10 @@
     <td> RM 12.00 - RM 18.00 ( per piece )  </td> 
     <th> Special Service (Pick up or Delivery) </th> 
   </tr> 
-</table> 
+</table> <br>
 
 <button type="submit" name="Send" class="registerbtn">Submit</button>
+</form>
     
 </body>
 </html>

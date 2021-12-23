@@ -19,11 +19,19 @@ body{
   }
 form{
       text-align: center;
-      width: 40%;
+      width: 100%;
 }
 table, th, td { 
     border:1px solid black; 
   } 
   h2{
       text-align: center;
+  }
+  th{
+      background-color: slategray;
+  }
+  button{
+      font-style: normal;
+      background-color: cornflowerblue;
+      
   }

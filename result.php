@@ -4,21 +4,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <title>result</title>
 </head>
 <body>
+<marquee direction="right" scrollamount="17">
+    <img src="dobi.jpg" alt="Trulli" width="200" height="200">
+    <img src="d1.jpg" alt="Trulli" width="300" height="200">
+    <img src="d2.jpg" alt="Trulli" width="300" height="200">
+    <img src="d3.jpg" alt="Trulli" width="300" height="200">
+    </marquee>
     
+</div>
 </body>
 </html>
 <form name="myform" method="post" action="semakform.php">
     <div class="container">
         <p>
-            <label for="fnama"><b>First Name:</b></label>
+            <label for="fnama"><b>Name:</b></label>
             <input type="text" name="fnama" id="fnama" placeholder="enter your first name" required>
-        </p>
-        <p>
-            <label for="Lnama"><b>Last Name: </b></label>
-            <input type="text" name="Lnama" id="Lnama" placeholder="enter your last name" required>
         </p>
         <p>
             <label for="email"><b>Email:</b></label>
@@ -31,28 +35,6 @@
         <p>
             <label for="Pno"><b>Phone Number:</b></label>
             <input type="text" name="Pno" id="Pno" placeholder="enter your Phone number" required>
-        </p>
-
-        <p>
-            <label for="city"><b>City : </b></label>
-            <select placeholder="Select your city" name="city" id="city">
-
-                <option value="">--Choose--</option>
-                <option value="Wilayah Persekutuan">Wilayah Persekutuan</option>
-                <option value="Selangor">Selangor</option>
-                <option value="Perlis">Perlis</option>
-                <option value="Kedah">Kedah</option>
-                <option value="Pulau Pinang">Pulau Pinang</option>
-                <option value="Perak">Perak</option>
-                <option value="Negeri Sembilan">Negeri Sembilan</option>
-                <option value="Melaka">Melaka</option>
-                <option value="Johor">Johor</option>
-                <option value="Kelantan">Kelantan</option>
-                <option value="Terengganu">Terengganu</option>
-                <option value="Pahang">Pahang</option>
-                <option value="Sabah">Sabah</option>
-                <option value="Sarawak">Sarawak</option>
-            </select>
         </p>
 
         <p>
