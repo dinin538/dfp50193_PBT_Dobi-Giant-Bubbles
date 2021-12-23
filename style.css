@@ -1,6 +1,7 @@
 h1{
     text-align: center;
     color: rgb(25, 58, 148);
+    font-style: initial;
 }
 p{
     text-align: center;
@@ -17,6 +18,12 @@ body{
     width: 20%;
   }
 form{
-      text-align: left;
-      width: 20%;
+      text-align: center;
+      width: 40%;
 }
+table, th, td { 
+    border:1px solid black; 
+  } 
+  h2{
+      text-align: center;
+  }
