@@ -15,41 +15,48 @@
 
     <h2>Service that AVAILABLE in our service</h2> 
 
- <form name="myform" method="post" action="result.php">
-<table style="width:100%"> 
-  <tr> 
-    <th> Normal Laundry </th> 
-    <th> Dry Cleaning </th> 
-    <th> Hand Cleaning </th> 
-    <th> Special Wash and Dry (Washable Carpet) </th> 
-  </tr> 
-  <tr> 
-    <td>Normal Clothes </td> 
-    <td>Please contact our company</td> 
-    <td>Normal Clothes</td> 
-    <td> RM 15.00 - RM 30.00 ( per piece )</td> 
-  </tr> 
-  <tr> 
-    <td>RM 2.00 ( per kg )</td> 
-    <td> Will personal inform the customer </td> 
-    <td>RM 5.00 ( per kg )</td> 
-    <th> Special Service (Clothes Iron) </th> 
-  </tr> 
-  <tr> 
-    <td>Thick Clothes ( Jeans or Towel) </td> 
-    <th> Special Wash and Dry (Matress , Curtain , Blanket) </th> 
-    <th> Special Wash and Dry (Comforter, Toto) </th> 
-    <td>RM 1.00 - RM 2.00 ( per piece )</td> 
-  </tr> 
-  <tr> 
-    <td>RM 0.50 ( per piece )</td> 
-    <td> RM 4.00 per kg  </td> 
-    <td> RM 12.00 - RM 18.00 ( per piece )  </td> 
-    <th> Special Service (Pick up or Delivery) </th> 
-  </tr> 
-</table> <br>
+    <form name="myform" method="post" action="result.php">
+    <div class="container">
+      
+        <p>
+            <label for="nl"><b>Normal Laundry</b></label>
+        </p>
+        <p>
+            <input type="radio" name="dc" id="dc" required>
+            <label for="dc"><b>Normal Clothes  RM 15.00 - RM 30.00 ( per piece )</b></label>
+        </p><br>
 
-<button type="submit" name="Send" class="registerbtn">Submit</button>
+        <p>
+            <input type="radio" name="cc" id="cc" required>
+            <label for="cc"><b>Dry Cleaning RM 2.00 ( per kg )</b></label>
+
+            
+        </p>
+        
+        <p>
+            <input type="checkbox" id="spesial" name="spesial" value="iron">
+            <label for="spesial"> Special Service (Clothes Iron) RM 5.00 ( per kg )</label><br>
+          </p><br>
+
+        <p>
+            <label for="cur"><b>Hand Cleaning</b></label>
+        </p>
+        
+        <p>
+
+          <input type="radio" id="jeans" name="jeans" value="jeans">
+          <label for="jeans"> Thick Clothes ( Jeans or Towel)  <b>RM 1.00 - RM 2.00 ( per piece )</b></label>
+          <input type="checkbox" id="spesial" name="spesial" value="iron">
+          <label for="spesial"> Special Wash and Dry (Matress , Curtain , Blanket)</label> 
+
+        </p>
+
+        <p>
+
+        </p>
+      
+        
+        <button type="submit" name="Send" class="registerbtn">Submit</button>
 </form>
     
 </body>

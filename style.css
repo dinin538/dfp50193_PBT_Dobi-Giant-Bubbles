@@ -3,11 +3,7 @@ h1{
     color: rgb(25, 58, 148);
     font-style: initial;
 }
-p{
-    text-align: center;
-    font-style: oblique;
-    
-}
+
 body{
     background-color: lavender;
 }
@@ -18,7 +14,7 @@ body{
     width: 20%;
   }
 form{
-      text-align: center;
+      
       width: 100%;
 }
 table, th, td { 
