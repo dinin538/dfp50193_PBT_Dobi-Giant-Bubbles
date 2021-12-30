@@ -13,7 +13,7 @@
 
     </div>
     <h1>Dobi Giant Bubbles</h1>
-    <p align="center">15G, Jalan Makyong 5B/KU5, Bandar Bukit Raja, Klang, Selangor 41050 Klang, Selangor</p>
+    <p align="center">15G, Jalan Makyong 5B/KU5, Bandar Bukit Raja, 41050 Klang, Selangor </p>
 
     <h2>Service that AVAILABLE in our service</h2>
 
@@ -24,22 +24,22 @@
                 <label for="nl"><b>Normal Laundry</b></label>
             </p>
             <p>
-                <input type="radio" name="dc" id="dc" required>
-                <label for="dc"><b>Normal Clothes RM 15.00 - RM 30.00 ( per piece )</b></label>
+                <input type="radio" name="dc" id="dc" value= "Normal Laundry RM15" required>
+                <label for="dc"><b>Normal Clothes RM 15.00 </b></label>
             </p>
             <P>
-                <input type="checkbox" id="steam" name="spesial" value="steam">
-                <label for="spesial"> Special Steam Iron</label>
+                <input type="checkbox" id="steam" name="spesial" value= "15">
+                <label for="spesial"> Special Steam Iron </label>
 
             </P>
             <p>
-                <input type="radio" name="cc" id="cc" required>
-                <label for="cc"><b>Dry Cleaning RM 2.00 ( per kg )</b></label>
+                <input type="radio" name="dc" id="cc"  value= "Dry Cleaning RM 25" required>
+                <label for="cc"><b>Dry Cleaning RM 25</b></label>
             </p>
 
             <p>
-                <input type="checkbox" id="spesial" name="spesial" value="iron">
-                <label for="spesial"> Special Service (Clothes Iron) RM 5.00 ( per kg )</label><br>
+                <input type="checkbox" id="spesial" name="spesial1" value="15">
+                <label for="spesial"> Special Service (Clothes Iron) RM 15</label><br>
             </p><br>
 
             <p>
@@ -47,11 +47,11 @@
             </p>
             <p>
 
-                <input type="radio" id="jeans" name="jeans" value="jeans">
+                <input type="radio" id="jeans" name="dc" value="Thick Clothes ( Jeans or Towel) RM 25">
                 <label for="jeans"> Thick Clothes ( Jeans or Towel) <b>RM 1.00 - RM 2.00 ( per piece )</b></label>
             </p>
             <p>
-                <input type="checkbox" id="spesial" name="spesial" value="iron">
+                <input type="checkbox" id="spesial" name="spesial2" value="20">
                 <label for="spesial"> Special Wash and Dry (Matress , Curtain , Blanket)</label>
             </p>
 
